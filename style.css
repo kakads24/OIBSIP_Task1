@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: beige;
+    font-size: 16px;
+}
+
+.main{
+    width: 100%;
+}
+nav{
+    width:100%;
+    margin: 0 auto;
+    background-color:rgb(236, 118, 128) ;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.logo a{
+    font-size: 50px;
+    color: rgb(51, 233, 27);
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 244, 244);
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    margin-right: 50px;
+}
+ul{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover{
+    color: rgb(187, 185, 185);
+}
+.header{
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content{
+    line-clamp: 100px;
+    position: center;
+}
